@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>共通ヘッダー</h1>
+        <h1>マイコレ</h1>
         <nav>
             <ul>
                 <li><a href="{{ url('/') }}">トップページ</a></li>

@@ -5,6 +5,8 @@
 @section('title', 'トップページ')
 
 @section('content')
-    <h2>トップページのコンテンツ</h2>
-    <p>ここにトップページのコンテンツを置きます。</p>
+    <h2>トップ<p>ここにトップページのコンテンツを置きます。</p>ページのコンテンツ</h2>
+    <script src="{{ asset('/js/ground.js') }}"></script>
 @endsection
+
+<canvas id="canvas"></canvas>
