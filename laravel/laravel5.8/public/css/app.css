@@ -1,0 +1,9 @@
+ul {
+    list-style: none; /* リストマークを非表示にする */
+    padding: 0; /* パディングをリセットする */
+    display: flex; /* Flexbox を有効化 */
+}
+
+li {
+    margin-right: 10px; /* 隣接する要素との間隔を設定 */
+}
