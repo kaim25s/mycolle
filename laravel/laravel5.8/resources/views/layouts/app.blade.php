@@ -15,6 +15,7 @@
                 <li><a href="{{ url('/') }}">トップページ</a></li>
                 <li><a href="{{ url('/about') }}">会社概要</a></li>
                 <li><a href="{{ url('/contact') }}">コンタクトフォーム</a></li>
+                <li><a href="{{ url('/test') }}">DB情報表示</a></li>
             </ul>
          </nav>
     </header>
@@ -37,6 +38,7 @@
                 <li><a href="{{ url('/') }}">トップページ</a></li>
                 <li><a href="{{ url('/about') }}">会社概要</a></li>
                 <li><a href="{{ url('/contact') }}">コンタクトフォーム</a></li>
+                <li><a href="{{ url('/test') }}">DB情報表示</a></li>
             </ul>
 
         </nav>

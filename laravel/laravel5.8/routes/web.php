@@ -15,6 +15,9 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
+// http://127.0.0.1:8000/testに接続したときに、TestControllerのindexが実行されます。
+Route::get('/test', 'App\Http\Controllers\TestController@index');
+
 
 use App\Http\Controllers\ContactController;
 
